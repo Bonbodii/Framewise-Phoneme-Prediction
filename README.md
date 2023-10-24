@@ -42,8 +42,11 @@ The dataset is structured as follows:
    - Model A: Narrower and deeper (e.g., hidden_layers=6, hidden_dim=1024).
    - Model B: Wider and shallower (e.g., hidden_layers=2, hidden_dim=1750).
    - Report the training and validation accuracies for both models.
+![image](https://github.com/Bonbodii/Framewise-Phoneme-Prediction/assets/116272268/f683b040-08ba-4c20-91f6-f3e4b84e8dc9)
 
 2. **Add Dropout Layers and Report Accuracies**
-   - For both Model A and Model B, add dropout layers with dropout rates of 0.25 (A), 0.5 (B), and 0.75 (C) respectively.
-   - Report the training and validation accuracies for each model with different dropout rates.
+   - Add dropout layers, and report training/validation accuracies with
+dropout rates equal to (A) 0.25/(B) 0.5/(C) 0.75 respectively.
+![image](https://github.com/Bonbodii/Framewise-Phoneme-Prediction/assets/116272268/58f354f9-789a-4fa8-8dc8-25aba7028710)
+
 
